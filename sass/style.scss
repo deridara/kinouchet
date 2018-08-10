@@ -1,0 +1,122 @@
+body {
+    background: #bef5f5;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+section {
+        width: 500px;
+        margin: 0 auto;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 10px;
+    background: white;
+    
+    div {
+        padding: 15px 17px;
+        cursor: pointer;
+    }
+    
+    div:hover {
+        background: #e8ffff;
+    }
+}
+
+.films {
+    background: white;
+}
+
+.film {
+    margin: 0px 0 ;
+    text-align: center;
+}
+
+.film:hover{
+    
+    cursor: pointer;
+}
+
+.film:hover > .film-name {
+    background: #e8ffff;
+}
+
+.film:not(:last-child) {
+    border-bottom: dashed 1px #aaa;
+}
+
+.film-name {
+    line-height: 50px;
+    font-size: 1.3em;
+    font-weight: 00;
+    padding: 15px;
+}
+
+.film-content {
+    margin: 0 0 0;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.comment {
+    color: #666;
+    margin: 10px 0 10px;
+    font-family: serif;
+    
+    span {
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px 0 20px;
+    font-size: inherit;
+}
+
+button:hover {
+    background: #ffffed;
+}
+
+form {
+    background: white;
+    border: solid #eee 1px;
+    border-radius: 8px;
+    width: 300px;
+    display: inline-block;
+    padding: 20px 20px 5px;
+    margin: 20px 0 20px;
+    
+    .form-title {
+        margin: 10px 0 20px;
+    }
+    
+        input {
+            height: 50px;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            margin: 0 0 10px;
+            font-size: inherit;
+            border-radius: 8px;
+            width: 250px;
+        }
+    
+    input:placeholder-shown {
+        font-size: inherit;
+    }
+}
+
+.chosen {
+    background: #e8ffff;
+}

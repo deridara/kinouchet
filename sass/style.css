@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* line 1, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+body {
+  background: #bef5f5;
+  font-family: sans-serif;
+  font-size: 16px; }
+
+/* line 7, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+h1 {
+  text-align: center;
+  color: white; }
+
+/* line 11, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+section {
+  width: 500px;
+  margin: 0 auto; }
+
+/* line 16, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 0 10px;
+  background: white; }
+  /* line 23, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+  .categories div {
+    padding: 15px 17px;
+    cursor: pointer; }
+  /* line 28, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+  .categories div:hover {
+    background: #e8ffff; }
+
+/* line 33, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.films {
+  background: white; }
+
+/* line 37, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.film {
+  margin: 0px 0;
+  text-align: center; }
+
+/* line 42, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.film:hover {
+  cursor: pointer; }
+
+/* line 47, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.film:hover > .film-name {
+  background: #e8ffff; }
+
+/* line 51, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.film:not(:last-child) {
+  border-bottom: dashed 1px #aaa; }
+
+/* line 55, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.film-name {
+  line-height: 50px;
+  font-size: 1.3em;
+  font-weight: 00;
+  padding: 15px; }
+
+/* line 62, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.film-content {
+  margin: 0 0 0;
+  text-align: left;
+  padding: 0 15px; }
+
+/* line 68, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.comment {
+  color: #666;
+  margin: 10px 0 10px;
+  font-family: serif; }
+  /* line 73, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+  .comment span {
+    font-weight: 600;
+    text-transform: capitalize; }
+
+/* line 79, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+button {
+  width: 250px;
+  height: 50px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px 0 20px;
+  font-size: inherit; }
+
+/* line 88, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+button:hover {
+  background: #ffffed; }
+
+/* line 92, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+form {
+  background: white;
+  border: solid #eee 1px;
+  border-radius: 8px;
+  width: 300px;
+  display: inline-block;
+  padding: 20px 20px 5px;
+  margin: 20px 0 20px; }
+  /* line 101, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+  form .form-title {
+    margin: 10px 0 20px; }
+  /* line 105, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+  form input {
+    height: 50px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 0 0 10px;
+    font-size: inherit;
+    border-radius: 8px;
+    width: 250px; }
+  /* line 115, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+  form input:placeholder-shown {
+    font-size: inherit; }
+
+/* line 120, /Users/dara/Sites/GeekBrains/JavaScript_1/киноучет/sass/style.scss */
+.chosen {
+  background: #e8ffff; }
+
+/*# sourceMappingURL=style.css.map */
